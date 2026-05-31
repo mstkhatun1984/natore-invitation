@@ -15,10 +15,18 @@ body{
 /* Header */
 
 header{
-    background:#00695c;
+    background:#359186;
     color:white;
     text-align:center;
     padding:12px;
+}
+
+.bismillah {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: black;
 }
 
 header h1{
@@ -68,6 +76,7 @@ h2{
 
 h3{
     font-size:16px;
+    Color: rgb(177, 62, 62);
 }
 
 /* Text */
