@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
-    font-size:16px;
+    font-size:15px;
     background:linear-gradient(135deg,#dff6ff,#fff3cd,#d4edda);
 }
 
@@ -11,16 +11,16 @@ header{
     background:#00695c;
     color:white;
     text-align:center;
-    padding:20px;
+    padding:15px;
 }
 
 header h1{
-    font-size:32px;
+    font-size:26px;
     margin-bottom:5px;
 }
 
 header h3{
-    font-size:20px;
+    font-size:17px;
     margin:0;
 }
 
@@ -28,11 +28,11 @@ header h3{
 
 .page{
     display:none;
-    width:90%;
-    max-width:1000px;
+    width:88%;
+    max-width:900px;
     margin:20px auto;
     background:white;
-    padding:30px;
+    padding:25px;
     border-radius:15px;
     box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
@@ -46,42 +46,42 @@ header h3{
 h1{
     color:#c21c1c;
     text-align:center;
-    font-size:36px;
-    margin-bottom:20px;
+    font-size:30px;
+    margin-bottom:18px;
 }
 
 h2{
     color:#b62929;
     text-align:center;
-    font-size:30px;
-    margin-bottom:20px;
+    font-size:25px;
+    margin-bottom:18px;
 }
 
 h3{
-    font-size:22px;
+    font-size:19px;
 }
 
 /* Text */
 
 p{
-    font-size:18px;
-    line-height:1.7;
+    font-size:16px;
+    line-height:1.6;
 }
 
 li{
-    font-size:18px;
-    line-height:1.7;
-    margin-bottom:6px;
+    font-size:16px;
+    line-height:1.6;
+    margin-bottom:5px;
 }
 
 /* Event Box */
 
 .event{
     background:#f1f8e9;
-    padding:20px;
-    border-left:6px solid green;
+    padding:18px;
+    border-left:5px solid green;
     border-radius:10px;
-    margin-top:20px;
+    margin-top:18px;
 }
 
 /* Buttons */
@@ -90,11 +90,11 @@ button{
     background:#008080;
     color:white;
     border:none;
-    padding:12px 25px;
-    margin:10px;
+    padding:10px 20px;
+    margin:8px;
     border-radius:6px;
     cursor:pointer;
-    font-size:18px;
+    font-size:16px;
     font-weight:bold;
 }
 
@@ -108,7 +108,7 @@ footer{
     background:#002b36;
     color:white;
     text-align:center;
-    padding:15px;
+    padding:12px;
     margin-top:20px;
-    font-size:18px;
+    font-size:16px;
 }
