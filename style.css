@@ -64,14 +64,13 @@ header h3{
 
 .page{
     display:none;
-    width:80%;
-    max-width:700px;
+    width:70%;
+    max-width:600px;
     margin:10px auto;
     background:white;
     padding:15px;
     border-radius:15px;
 }
-
 .active{
     display:block;
 }
@@ -167,7 +166,7 @@ footer{
     }
     
     .bismillah{
-        font-size:40px;
+        font-size:20px;
     }
 
     h1{
