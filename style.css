@@ -153,37 +153,40 @@ footer{
 
 /* PAGE 6 */
 
+
+/* PAGE 6 */
+
 #page6{
     text-align:center;
     background:#fafcf8;
     border:4px double #2b8c8c;
     border-radius:25px;
-    padding:30px;
+    padding:20px;
     position:relative;
-    max-width:550px;
-    margin:20px auto;
-    box-shadow:0 5px 20px rgba(0,0,0,.15);
+    max-width:450px;   /* Smaller overall page */
+    margin:15px auto;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
 }
 
 .thank-you-title{
-    font-size:38px;
+    font-size:24px;   /* Smaller title */
     color:#c21c1c;
     font-weight:bold;
     text-shadow:
         2px 2px 0 #fff,
         4px 4px 8px rgba(0,0,0,.25);
-    margin-bottom:25px;
+    margin-bottom:15px;
 }
 
 .thank-you-box{
     background:white;
     border:2px solid #2b8c8c;
-    border-radius:25px;
-    padding:30px;
-    margin:20px auto;
-    max-width:500px;
+    border-radius:20px;
+    padding:20px;
+    margin:15px auto;
+    max-width:360px;   /* Smaller inner box */
     position:relative;
-    box-shadow:0 0 15px rgba(0,128,128,.15);
+    box-shadow:0 0 10px rgba(0,128,128,.15);
 }
 
 .thank-you-box::before{
@@ -192,7 +195,7 @@ footer{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    font-size:120px;
+    font-size:80px;   /* Smaller watermark */
     font-weight:bold;
     color:rgba(0,128,128,.05);
     z-index:0;
@@ -201,50 +204,48 @@ footer{
 .thank-you-box p{
     position:relative;
     z-index:1;
+    font-size:14px;
 }
 
 .promote{
     color:#b30000;
-    font-size:20px;
+    font-size:16px;   /* Smaller প্রচারে */
     font-weight:bold;
-    margin-bottom:20px;
+    margin-bottom:15px;
 }
 
 .name{
-    font-size:16px;
+    font-size:14px;   /* Smaller names */
     font-weight:bold;
     color:#1f5f73;
 }
 
 .association-name{
-    color:rgb(183, 39, 39);
-    font-size:20px;
+    color:rgb(183,39,39);
+    font-size:16px;   /* Smaller association name */
     font-weight:bold;
-    margin-top:20px;
+    margin-top:15px;
 }
-
 
 /* Decorative flowers */
 
 #page6::before{
     content:"༺❀༻";
     position:absolute;
-    top:20px;
-    left:25px;
-    font-size:55px;
+    top:15px;
+    left:15px;
+    font-size:40px;
     color:#2b8c8c;
 }
 
 #page6::after{
     content:"༺❀༻";
     position:absolute;
-    bottom:20px;
-    right:25px;
-    font-size:55px;
+    bottom:15px;
+    right:15px;
+    font-size:40px;
     color:#2b8c8c;
 }
-
-
 
 
 /* Mobile Responsive */
