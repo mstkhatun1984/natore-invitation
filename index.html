@@ -10,20 +10,15 @@
 
 <body>
 
-
-<header>
-    <div class="header-ticker">
-        <h1>Natore Zilla Association USA, Inc</h1>
-    </div>
-
-    <div class="header-ticker">
-        <h3>নাটোর জেলা এসোসিয়েশন ইউএসএ, ইনক্</h3>
-    </div>
-
+<header id="mainHeader">
+    <h1>Natore Zilla Association USA, Inc</h1>
+    <h3>নাটোর জেলা এসোসিয়েশন ইউএসএ, ইনক্</h3>
 </header>
+
 <div class="ticker">
     <div class="bismillah">
-        “বিস মিল্লাহির রাহমানির রাহিম” 
+        “বিস মিল্লাহির রাহমানির রাহিম”
+        &nbsp;&nbsp;&nbsp;&nbsp;
         "অভিষেক ও ঈদ পুনর্মিলনী ২০২৬"
     </div>
 </div>
@@ -34,32 +29,29 @@
 
 <h1>অভিষেক ও ঈদ পুনর্মিলনী ২০২৬</h1>
 
+<p><strong>সম্মানিত সুধীবৃন্দ,</strong></p>
 
-
-<p><strong>প্রচার সম্পাদক</strong><br>
-এইচ এম মিতু</p>
-
-<p>
-আসসালামু আলাইকুম।
-</p>
+<p>আসসালামু আলাইকুম।</p>
 
 <p>
-নাটোর জেলা এসোসিয়েশন ইউএসএ, ইনক্ (২০২৬-২০২৮) মেয়াদের নব নির্বাচিত কার্যকরী কমিটির অভিষেক ও ঈদ পুনর্মিলনী ২০২৬ অনুষ্ঠানে আপনি ও আপনারা স্ব-পরিবারে আমন্ত্রিত।
+নাটোর জেলা এসোসিয়েশন ইউএসএ, ইনক্ (২০২৬-২০২৮) মেয়াদের নব নির্বাচিত
+কার্যকরী কমিটির অভিষেক ও ঈদ পুনর্মিলনী ২০২৬ অনুষ্ঠানে আপনি ও আপনারা
+স্ব-পরিবারে আমন্ত্রিত।
 </p>
 
 <div class="event">
-<h3>📌তারিখ</h3>
-<p>২১ জুন ২০২৬, রবিবার</p>
+    <h3>📌তারিখ</h3>
+    <p>২১ জুন ২০২৬, রবিবার</p>
 
-<h3>🕕 সময়</h3>
-<p>বিকেল ৬টা – রাত ১১টা</p>
+    <h3>🕕 সময়</h3>
+    <p>বিকেল ৬টা – রাত ১১টা</p>
 
-<h3>📍 স্থান</h3>
-<p>
-Queens Palace<br>
-37-11 57th Street<br>
-Woodside, NY-11377
-</p>
+    <h3>📍 স্থান</h3>
+    <p>
+        Queens Palace<br>
+        37-11 57th Street<br>
+        Woodside, NY-11377
+    </p>
 </div>
 
 <button onclick="showPage(2)">Next ➜</button>
@@ -85,8 +77,6 @@ Woodside, NY-11377
 
 <div id="page3" class="page">
 
-
-
 <img src="invitation2.jpg.jpeg" alt="Advisory Board" class="invitation-image">
 
 <br><br>
@@ -99,7 +89,6 @@ Woodside, NY-11377
 <!-- PAGE 4 -->
 
 <div id="page4" class="page">
-
 
 <img src="invitation3.jpg.jpeg" alt="Executive Committee" class="invitation-image">
 
@@ -114,8 +103,6 @@ Woodside, NY-11377
 
 <div id="page5" class="page">
 
-<h2>কার্যনির্বাহী সদস্য ও সাধারণ সদস্য</h2>
-
 <img src="invitation4.jpg.jpeg" alt="Members" class="invitation-image">
 
 <br><br>
@@ -124,7 +111,6 @@ Woodside, NY-11377
 <button onclick="showPage(1)">🏠 Home</button>
 
 </div>
-
 
 <script>
 
@@ -138,10 +124,20 @@ function showPage(page){
 
     document.getElementById('page' + page).classList.add('active');
 
-    window.scrollTo(0, 0);
+    let header = document.getElementById('mainHeader');
 
+    if(page >= 3){
+        header.style.display = "none";
+    }else{
+        header.style.display = "block";
+    }
+
+    window.scrollTo(0,0);
 }
 
 </script>
+
 </body>
 </html>
+
+
