@@ -15,7 +15,7 @@ body{
 /* Header */
 
 header{
-    background:#359186;
+    background:rgb(93, 195, 151);
     color:white;
     text-align:center;
     padding:12px;
@@ -71,6 +71,7 @@ header h3{
     padding:15px;
     border-radius:15px;
 }
+
 .active{
     display:block;
 }
@@ -78,14 +79,14 @@ header h3{
 /* Headings */
 
 h1{
-    color:#c21c1c;
+    color:#d61111d5;
     text-align:center;
     font-size:24px;
     margin-bottom:15px;
 }
 
 h2{
-    color:#c73333;
+    color:#d61111d5;
     text-align:center;
     font-size:20px;
     margin-bottom:15px;
@@ -93,7 +94,7 @@ h2{
 
 h3{
     font-size:18px;
-    color:rgb(177,62,62);
+    color: black;
 }
 
 /* Text */
