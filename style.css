@@ -230,7 +230,7 @@ footer{
 /* Decorative flowers */
 
 #page6::before{
-    content:"༺❀༻";
+    content:"༺❀";
     position:absolute;
     top:15px;
     left:15px;
@@ -239,7 +239,7 @@ footer{
 }
 
 #page6::after{
-    content:"༺❀༻";
+    content:"❀༻";
     position:absolute;
     bottom:15px;
     right:15px;
